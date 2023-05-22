@@ -6,7 +6,5 @@ radio.onReceivedString(function (receivedString) {
 })
 radio.onReceivedValue(function (name, value) {
     basic.showString("" + (input.temperature()))
-    basic.showString(name)
-    basic.showString("" + (value))
 })
 radio.setGroup(105)
